@@ -5,6 +5,6 @@ class Listing<ActiveRecord::Base
   has_many :reservations
   has_many :reviews, through: :reservations
   # belongs_to :city, through: :neighborhood
-
+  
 
 end
