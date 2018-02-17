@@ -40,3 +40,6 @@ group :development, :test do
   gem "pry"
   gem 'rack_session_access'
 end
+
+# Visualize models using graphviz
+gem 'rails-erd', require: false
